@@ -24,13 +24,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '16'
-    
-    # Step 3: Install Jest globally
-    - name: Install Jest globally
-      run: |
-        npm install -g jest
 
-    # Step 4: Install dependencies and run unit tests
+    # Step 3: Install dependencies and run unit tests
     - name: Install dependencies and run tests
       run: |
         npm install
