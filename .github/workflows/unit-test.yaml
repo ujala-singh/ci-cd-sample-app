@@ -16,6 +16,8 @@ jobs:
     # Step 1: Checkout code from the repository
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     # Step 2: Set up Node.js environment for testing
     - name: Set up Node.js
