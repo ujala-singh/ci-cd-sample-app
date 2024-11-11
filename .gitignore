@@ -1,0 +1,11 @@
+# Ignore Docker files
+.dockerignore
+Dockerfile
+
+# Node.js / frontend dependencies
+node_modules/
+npm-debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
