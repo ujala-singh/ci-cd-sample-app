@@ -24,6 +24,6 @@ docker run -p 8080:80 frontend-app
 ## CI/CD Pipeline
 
 The pipeline is configured in GitHub Actions to:
-1. Run tests (if applicable).
+1. Run tests.
 2. Build the Docker image.
 3. Push the image to Docker Hub (or other registries).
