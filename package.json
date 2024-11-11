@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Frontend App",
+  "main": "app/index.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
