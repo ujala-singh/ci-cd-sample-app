@@ -58,8 +58,8 @@ jobs:
         push: true
         platforms: linux/amd64,linux/arm64
         tags: |
-          ${{ steps.get_branch.outputs.branch }}-${{ steps.get_version.outputs.version }}
-          ${{ steps.get_branch.outputs.branch }}-latest
+          $USERNAME/${{ github.event.repository.name }}:${{ steps.get_branch.outputs.branch }}-${{ steps.get_version.outputs.version }}
+          $USERNAME/${{ github.event.repository.name }}:${{ steps.get_branch.outputs.branch }}-latest
       env:
         DOCKER_CLIENT_TIMEOUT: 300
         COMPOSE_HTTP_TIMEOUT: 300
