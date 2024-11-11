@@ -12,6 +12,12 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.test.js",
+      "**/?(*.)+(spec|test).[tj]s?(x)"
+    ]
+  }, 
   "author": "ujala-singh",
   "license": "ISC"
 }
